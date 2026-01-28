@@ -37,7 +37,7 @@
   "enableAllProjectMcpServers": true,
   "enabledMcpjsonServers": [
     "n8n-mcp",
-    "vapi_mcp",
+    "vapi-mcp",
     "tavily-mcp",
     "zep-mcp",
     "pinecone-mcp",
