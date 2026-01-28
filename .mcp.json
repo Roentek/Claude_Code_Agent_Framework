@@ -14,7 +14,7 @@
         "N8N_API_KEY": "${N8N_API_KEY}"
       }
     },
-    "tavily-docs": {
+    "tavily-mcp": {
       "command": "npx",
       "args": [
         "-y",
@@ -25,14 +25,17 @@
         "DEFAULT_PARAMETERS": "{\"include_images\": true, \"max_results\": 15, \"search_depth\": \"advanced\"}"
       }
     },
-    "vapi-docs": {
+    "vapi-mcp": {
       "command": "npx",
       "args": [
         "-y",
         "@vapi-ai/mcp-server"
-      ]
+      ],
+      "env": {
+        "VAPI_TOKEN": "${VAPI_API_TOKEN}"
+      }
     },
-    "zep-docs": {
+    "zep-mcp": {
       "command": "npx",
       "args": [
         "-y",
@@ -40,7 +43,7 @@
         "https://docs-mcp.getzep.com/mcp"
       ]
     },
-    "pinecone": {
+    "pinecone-mcp": {
       "command": "npx",
       "args": [
         "-y",
@@ -50,7 +53,17 @@
         "PINECONE_API_KEY": "${PINECONE_API_KEY}"
       }
     },
-    "supabase": {
+    "apify-mcp": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@apify/mcp-server"
+      ],
+      "env": {
+        "APIFY_TOKEN": "${APIFY_API_PAT}"
+      }
+    },
+    "supabase-mcp": {
       "command": "npx",
       "args": [
         "-y",

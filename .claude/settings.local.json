@@ -37,10 +37,11 @@
   "enableAllProjectMcpServers": true,
   "enabledMcpjsonServers": [
     "n8n-mcp",
-    "vapi_docs",
-    "tavily-docs",
-    "zep-docs",
-    "pinecone",
-    "supabase"
+    "vapi_mcp",
+    "tavily-mcp",
+    "zep-mcp",
+    "pinecone-mcp",
+    "apify-mcp",
+    "supabase-mcp"
   ]
 }
