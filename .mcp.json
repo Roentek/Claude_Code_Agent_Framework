@@ -1,6 +1,6 @@
 {
   "mcpServers": {
-      "n8n-mcp-tools": {
+      "n8n-mcp": {
       "command": "npx",
       "args": [
         "-y",
@@ -13,6 +13,9 @@
         "N8N_API_URL": "${N8N_API_URL}",
         "N8N_API_KEY": "${N8N_API_KEY}"
       }
+    },
+    "zep-docs": {
+      "url": "https://docs-mcp.getzep.com/mcp"
     }
   }
 }
