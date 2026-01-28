@@ -16,6 +16,7 @@
       "Bash(npm run:*)",
       "Bash(where n8n-mcp)",
       "Bash(npx n8n-mcp:*)",
+      "Bash(git remote set-url:*)",
       "mcp__claude_ai_Tavily__tavily_search",
       "mcp__n8n-mcp__tools_documentation",
       "mcp__n8n-mcp__search_nodes",
