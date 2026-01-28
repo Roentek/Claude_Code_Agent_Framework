@@ -65,11 +65,16 @@ This loop is how the framework improves over time.
 **Directory layout:**
 
 ```txt
+.claude/        # Claude Code settings (settings.local.json for allowed commands, etc.)
 .tmp/           # Temporary files (scraped data, intermediate exports). Regenerated as needed.
 tools/          # Python scripts for deterministic execution
 workflows/      # Markdown SOPs defining what to do and how
-.env            # API keys and environment variables (NEVER store secrets anywhere else)
 credentials.json, token.json  # Google OAuth (gitignored)
+.env            # API keys and environment variables (NEVER store secrets anywhere else)
+.env.example    # Template showing required env vars (safe to commit)
+.mcp.json       # MCP server configuration (tool integrations like Apify, Tavily, n8n)
+CLAUDE.md       # This file — agent instructions and project context
+README.md       # Project overview and setup guide
 ```
 
 **Core principle:** Local files are just for processing. Anything I need to see or use lives in cloud services. Everything in `.tmp/` is disposable.
