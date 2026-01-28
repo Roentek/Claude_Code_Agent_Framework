@@ -1,0 +1,7 @@
+{
+  "enabledPlugins": {
+    "supabase@claude-plugins-official": true,
+    "claude-code-setup@claude-plugins-official": true,
+    "pinecone@claude-plugins-official": true
+  }
+}

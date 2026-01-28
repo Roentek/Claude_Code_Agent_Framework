@@ -1,6 +1,6 @@
 {
   "mcpServers": {
-      "n8n-mcp": {
+    "n8n-mcp": {
       "command": "npx",
       "args": [
         "-y",
@@ -10,12 +10,9 @@
         "MCP_MODE": "stdio",
         "LOG_LEVEL": "error",
         "DISABLE_CONSOLE_OUTPUT": "true",
-        "N8N_API_URL": "${N8N_API_URL}",
+        "N8N_API_URL": "${N8N_HOST_URL}",
         "N8N_API_KEY": "${N8N_API_KEY}"
       }
-    },
-    "zep-docs": {
-      "url": "https://docs-mcp.getzep.com/mcp"
     },
     "tavily-docs": {
       "command": "npx",
@@ -34,6 +31,34 @@
         "-y",
         "@vapi-ai/mcp-server"
       ]
+    },
+    "zep-docs": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "mcp-remote",
+        "https://docs-mcp.getzep.com/mcp"
+      ]
+    },
+    "pinecone": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@pinecone-database/mcp"
+      ],
+      "env": {
+        "PINECONE_API_KEY": "${PINECONE_API_KEY}"
+      }
+    },
+    "supabase": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@supabase/mcp-server-supabase@latest"
+      ],
+      "env": {
+        "SUPABASE_ACCESS_TOKEN": "${SUPABASE_API_PAT}"
+      }
     }
   }
 }
