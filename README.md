@@ -35,11 +35,19 @@ Install python and nodejs in your system and make sure that the versions are >= 
 
 Open your terminal and run:
 
+Python:
+
 ```bash
 pip install uv
 ```
 
-to install uvx for specific mcp's that require it.
+Windows:
+
+```bash
+powershell -ExecutionPolicy ByPass -c "irm https://astral.sh/uv/install.ps1 | iex"
+```
+
+to install uvx for specific mcp's that require it. If you have any issues you can use `claude` later to help install the dependencies and check your mcp list through `claude-code` terminal.
 
 ### Step 1: Install Claude Code CLI
 
