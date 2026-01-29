@@ -21,12 +21,25 @@ Claude Code is an agentic coding tool that lives in your terminal, understands y
 Before installing Claude Code, ensure you have:
 
 - **[Node.js](https://nodejs.org/en/download/) 18 or newer**
+- **[Python](https://www.python.org/downloads/) 3.13.x or newer**
 - **VS Code** installed on your system
-- A **Claude subscription** (Pro, Max) or **Anthropic API key**
+- **Claude subscription** (Pro, Max) or **Anthropic API key**
 - **Git** installed and configured
 - A stable internet connection
 
 ## 💾 Installation
+
+### Step 0: Install Python, Node.js & Packages
+
+Install python and nodejs in your system and make sure that the versions are >= the versions listed. Make sure pip is installed appropriately so you can install python packages.
+
+Open your terminal and run:
+
+```bash
+pip install uv
+```
+
+to install uvx for specific mcp's that require it.
 
 ### Step 1: Install Claude Code CLI
 
