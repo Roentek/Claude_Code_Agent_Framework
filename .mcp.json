@@ -72,6 +72,28 @@
       "env": {
         "SUPABASE_ACCESS_TOKEN": "${SUPABASE_API_PAT}"
       }
+    },
+    "openrouter-mcp": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@physics91/openrouter-mcp",
+        "start"
+      ],
+      "env": {
+        "OPENROUTER_API_KEY": "${OPENROUTER_API_KEY}"
+      }
+    },
+    "google-workspace-mcp": {
+      "command": "uvx",
+      "args": [
+        "workspace-mcp"
+      ],
+      "env": {
+        "GOOGLE_OAUTH_CLIENT_ID": "${GOOGLE_OAUTH_CLIENT_ID}",
+        "GOOGLE_OAUTH_CLIENT_SECRET": "${GOOGLE_OAUTH_CLIENT_SECRET}",
+        "USER_GOOGLE_EMAIL": "${GOOGLE_USER_EMAIL}"
+      }
     }
   }
 }

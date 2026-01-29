@@ -42,6 +42,8 @@
     "zep-mcp",
     "pinecone-mcp",
     "apify-mcp",
-    "supabase-mcp"
+    "supabase-mcp",
+    "google-workspace-mcp",
+    "openrouter-mcp"
   ]
 }
