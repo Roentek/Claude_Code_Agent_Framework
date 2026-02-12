@@ -94,6 +94,18 @@
         "GOOGLE_OAUTH_CLIENT_SECRET": "${GOOGLE_OAUTH_CLIENT_SECRET}",
         "USER_GOOGLE_EMAIL": "${GOOGLE_USER_EMAIL}"
       }
+    },
+    "alpaca-mcp": {
+      "command": "uvx",
+      "args": [
+        "alpaca-mcp-server",
+        "serve"
+      ],
+      "env": {
+        "ALPACA_API_KEY": "${ALPACA_API_KEY}",
+        "ALPACA_SECRET_KEY": "${ALPACA_SECRET_KEY}",
+        "ALPACA_PAPER_TRADE": "True"
+      }
     }
   }
 }
