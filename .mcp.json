@@ -106,6 +106,16 @@
         "ALPACA_SECRET_KEY": "${ALPACA_SECRET_KEY}",
         "ALPACA_PAPER_TRADE": "True"
       }
+    },
+    "spline-mcp": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "spline-mcp-server"
+      ],
+      "env": {
+        "SPLINE_API_KEY": "${SPLINE_API_KEY}"
+      }
     }
   }
 }
