@@ -220,10 +220,6 @@ I'm getting a "Cannot read property 'map' of undefined" error in UserList.jsx. C
 Refactor the authentication logic to use a custom hook
 ```
 
-## 📦 License
-
-- See MIT [LICENSE](LICENSE) for details.
-
 ## 👏 Acknowledgments
 
 - [Anthropic](https://anthropic.com) team for the Model Context Protocol
@@ -236,3 +232,9 @@ Refactor the authentication logic to use a custom hook
 ## 💻 Support
 
 **Need help?** Visit [support.anthropic.com](https://support.anthropic.com) for additional assistance or check the [Claude Code documentation](https://docs.anthropic.com/en/docs/claude-code) for the most up-to-date information.
+
+## 📦 License
+
+MIT License - Copyright (c) 2026 Roentek Designs
+
+See [LICENSE](LICENSE) for details.
