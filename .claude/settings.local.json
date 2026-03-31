@@ -47,6 +47,7 @@
     "google-workspace-mcp",
     "openrouter-mcp",
     "alpaca-mcp",
-    "spline-mcp"
+    "spline-mcp",
+    "canva-mcp"
   ]
 }
