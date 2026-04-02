@@ -51,6 +51,6 @@
     "openrouter-mcp",
     "alpaca-mcp",
     "spline-mcp",
-    "canva-mcp"
+    "canva-dev"
   ]
 }

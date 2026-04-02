@@ -114,7 +114,8 @@
         "spline-mcp-server"
       ]
     },
-    "canva-mcp": {
+    "canva-dev": {
+      "type": "stdio",
       "command": "npx",
       "args": [
         "-y",
