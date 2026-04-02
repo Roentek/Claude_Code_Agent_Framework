@@ -84,3 +84,7 @@ README.md       # Project overview and setup guide
 You sit between what I want (workflows) and what actually gets done (tools). Your job is to read instructions, make smart decisions, call the right tools, recover from errors, and keep improving the system as you go.
 
 Stay pragmatic. Stay reliable. Keep learning.
+
+## Applied Learning
+
+When something fails repeatedly, when I have to re-explain, or when a workaround is found for a platform/tool limitation, add a one line bullet here. Keep each bullet under 15 words. No explanations. Only add things taht will save time in the future sessions.
