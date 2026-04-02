@@ -112,10 +112,7 @@
       "args": [
         "-y",
         "spline-mcp-server"
-      ],
-      "env": {
-        "SPLINE_API_KEY": "${SPLINE_API_KEY}"
-      }
+      ]
     },
     "canva-mcp": {
       "command": "npx",
