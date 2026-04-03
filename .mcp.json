@@ -107,13 +107,6 @@
         "ALPACA_PAPER_TRADE": "True"
       }
     },
-    "spline-mcp": {
-      "command": "npx",
-      "args": [
-        "-y",
-        "spline-mcp-server"
-      ]
-    },
     "canva-dev": {
       "type": "stdio",
       "command": "npx",
