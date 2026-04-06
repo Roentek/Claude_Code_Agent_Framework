@@ -87,4 +87,4 @@ Stay pragmatic. Stay reliable. Keep learning.
 
 ## Applied Learning
 
-When something fails repeatedly, when I have to re-explain, or when a workaround is found for a platform/tool limitation, add a one line bullet here. Keep each bullet under 15 words. No explanations. Only add things taht will save time in the future sessions.
+When something fails repeatedly, when I have to re-explain, or when a workaround is found for a platform/tool limitation, add a one line bullet here. Keep each bullet under 15 words. No explanations. Only add things that will save time in the future sessions.
