@@ -11,6 +11,39 @@
     "plugin-dev@claude-plugins-official": false,
     "supabase@claude-plugins-official": false
   },  
+  "enableAllProjectMcpServers": true,
+  "enabledMcpjsonServers": [
+    "supabase-mcp",
+    "openrouter-mcp",
+    "kie-ai",
+    "tavily-mcp",
+    "google-workspace-mcp",
+    "trigger",
+    "pinecone-mcp",
+    "vapi-mcp",
+    "alpaca",
+    "n8n-mcp",
+    "apify",
+    "zep-mcp",
+    "canva-dev"
+  ],  
+  "hooks": {
+    "Stop": [
+      {
+        "matcher": "",
+        "hooks": [
+          {
+            "type": "command",
+            "command": ".claude/hooks/stop.sh"
+          }
+        ]
+      }
+    ]
+  },
+  "statusLine": {
+    "type": "command",
+    "command": "python -X utf8 .claude/scripts/context-monitor.py"
+  },
   "permissions": {
     "allow": [
       "Bash(dir:*)",
@@ -44,24 +77,13 @@
       "mcp__n8n-mcp__get_node_for_task",
       "mcp__n8n-mcp__list_tasks",
       "mcp__zep-docs__search_documentation",
-      "mcp__alpaca-mcp__get_stock_bars",
+      "mcp__alpaca__get_stock_bars",
       "WebFetch(domain:docs.n8n.io)",
       "WebFetch(domain:help.getzep.com)"
     ],
     "deny": []
   },
-  "enableAllProjectMcpServers": true,
-  "enabledMcpjsonServers": [
-    "n8n-mcp",
-    "vapi-mcp",
-    "tavily-mcp",
-    "zep-mcp",
-    "pinecone-mcp",
-    "apify-mcp",
-    "supabase-mcp",
-    "google-workspace-mcp",
-    "openrouter-mcp",
-    "alpaca",
-    "canva-dev"
-  ]
+  "env": {
+      
+  }
 }
