@@ -61,7 +61,7 @@
     "supabase-mcp",
     "google-workspace-mcp",
     "openrouter-mcp",
-    "alpaca-mcp",
+    "alpaca",
     "canva-dev"
   ]
 }
